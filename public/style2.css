@@ -1,0 +1,25 @@
+.container{
+    background-color: khaki;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 20px;
+}
+
+#content{
+    background-color: rgb(240, 235, 189);
+    border-radius: 6px;
+    padding: 5px 3px;
+}
+
+button{
+    text-decoration: none;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    padding: 7px;
+    color: black;
+    font-weight: 600;
+    background-color: rgb(128, 173, 187);
+    cursor: pointer;
+}
