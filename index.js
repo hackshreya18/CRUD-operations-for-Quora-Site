@@ -15,7 +15,7 @@ app.set("view engine","view");
 app.set("views",path.join(__dirname,"views"));
 
 app.use(express.static(path.join(__dirname,"public")));
-// app.use(express.static("public"));
+app.use(express.static("public"));
 
 
 let posts = [
@@ -40,7 +40,7 @@ app.listen(port,()=>{
     console.log(`Hello!! Listening to port ${port}`);
 });
 
-app.get("./",(req,res)=>{
+app.get("",(req,res)=>{
     res.render("main_page.ejs");
 })
 
