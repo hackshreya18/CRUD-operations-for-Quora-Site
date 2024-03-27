@@ -14,7 +14,7 @@
                 <h3 class="userName">@<%= post.username  %></h3> 
                 <p class="content"><%= post.content %></p>
                 <a class="btn" href="/posts/<%=post.id%>">View</a>
-                <a class="btn" href="/posts/<%=post.id%>/edit">Edit</a>
+                <a class="btn" href="/posts/<%=post.id%>/edit">Edit</a> <br><br>
                 <form action="/posts/<%= post.id %>?_method=delete" method="post" style="display: inline;">
                     <button class="btn">Delete</button>
                 </form>
@@ -28,3 +28,4 @@
 </body>
 </html>
 
+<!-- https://crud-operations-for-quora-site2.onrender.com -->
