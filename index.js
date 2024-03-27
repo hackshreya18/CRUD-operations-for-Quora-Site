@@ -27,7 +27,7 @@ let posts = [
     {
         id: uuidv4(),
         username: "Puneet",
-        content: "Achieved a very good package for my first internship."
+        content: "I am looking forward to stocks."
     },
     {
         id: uuidv4(),

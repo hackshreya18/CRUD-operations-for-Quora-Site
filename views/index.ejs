@@ -13,8 +13,8 @@
             <div class="card">
                 <h3 class="userName">@<%= post.username  %></h3> 
                 <p class="content"><%= post.content %></p>
-                <a class="btn" href="http://localhost:8080/posts/<%=post.id%>">View</a>
-                <a class="btn" href="http://localhost:8080/posts/<%=post.id%>/edit">Edit</a>
+                <a class="btn" href="/posts/<%=post.id%>">View</a>
+                <a class="btn" href="/posts/<%=post.id%>/edit">Edit</a>
                 <form action="/posts/<%= post.id %>?_method=delete" method="post" style="display: inline;">
                     <button class="btn">Delete</button>
                 </form>
