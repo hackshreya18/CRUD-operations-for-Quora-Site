@@ -40,6 +40,10 @@ app.listen(port,()=>{
     console.log(`Hello!! Listening to port ${port}`);
 });
 
+app.get("./",(req,res)=>{
+    res.render("main_page.ejs");
+})
+
 app.get("/posts",(req,res)=>{
     res.render("index.ejs",{ posts });
 })
